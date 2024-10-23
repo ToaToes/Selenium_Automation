@@ -58,6 +58,28 @@ Jenkins pulls code, builds application, and runs tests:
 API Tests (Postman/Newman)
 UI Tests
 If tests pass → Jenkins deploys to the server backend
+
+
+
+## Situation that not suitable for automation:
+1. Short-Lived Projects
+Description: For projects with a very short lifespan or one-time applications, the time and effort needed to set up automated tests may outweigh the benefits.
+2. Highly Dynamic User Interfaces
+Description: Applications with frequently changing UIs may require constant updates to the test scripts, leading to maintenance overhead that can negate the benefits of automation.
+3. Exploratory Testing
+Description: Exploratory testing, which relies on human intuition and experience, cannot be easily automated. This type of testing is valuable for discovering unexpected issues.
+4. Complex Test Scenarios
+Description: Tests that involve complex user interactions, require human judgment, or depend heavily on visual aspects (like design reviews) may be challenging to automate effectively.
+5. Initial Development Phases
+Description: In the early stages of development, when requirements are still evolving, automation may not be suitable. The test cases can become obsolete quickly, leading to wasted effort.
+6. Low ROI on Automation
+Description: If the cost of setting up and maintaining automated tests is higher than the benefits gained (e.g., in small teams or projects with minimal regression testing), it may not be justified.
+7. Test Cases with High Setup Costs
+Description: Tests that require extensive setup, configuration, or specific environments can be cumbersome to automate and may be more efficiently executed manually.
+8. Non-Functional Testing
+Description: While some non-functional tests can be automated (like performance testing), others, such as usability or accessibility testing, often require human input and subjective evaluation.
+9. Specialized Hardware or Devices
+Description: Testing applications that rely on specific hardware configurations or devices (like IoT devices) may not be feasible to automate effectively.
 Monitoring occurs post-deployment → Feedback loop starts again
 Conclusion
 In summary, the CI/CD pipeline integrates various tools and processes to automate the development workflow, ensuring that code changes are continuously tested and deployed efficiently. Each component plays a crucial role in maintaining the quality and stability of the software throughout its lifecycle.
