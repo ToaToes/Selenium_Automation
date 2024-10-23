@@ -2,7 +2,14 @@
 Selenium Automation DevOps, involing repository Gitlab, Jenkins CI Line (or docker), Jenkins automation (UI, API(Postman)), then end product.
 
 
-The CI/CD pipeline is a set of automated processes that allow development teams to integrate code changes, run tests, and deploy applications more efficiently. Here’s a breakdown of the typical process and how the various components like GitLab, Jenkins, server backend, Postman, UI automation, and API testing interact within this pipeline:
+The CI/CD pipeline is a set of automated processes that allow development teams to integrate  ```code changes```, ```run tests```, and ```deploy applications``` more efficiently. breakdown of the typical process and how the various components like:
+**GitLab**, 
+**Jenkins**, 
+**server backend**, 
+**Postman**,
+**UI automation,** 
+**API testing**
+interact within this pipeline:
 
 CI/CD Pipeline Process
 Code Commit:
